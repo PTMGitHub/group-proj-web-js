@@ -13,15 +13,26 @@
     <div>
         <form>
             <input type="text" id="newWord" placeholder="QA are...">
-            <button onclick="return addToConsole(this)">Add to console</span>
-                <button onclick="return addToCookie(this)">Add to cookie</span>
+            <br\><button onclick="return addToConsole(this)">Add to console</span>
+                    <br\><button onclick="return addToCookie(this)">Add to cookie</span>
+                            <br\><button onclick="return addToLocalStorage(this)">Add to localstorage</span>
         </form>
     </div>
     <p class="great"> This is our amazing example of HTML classes </p>
 
     <p id="idTest">here is an example of an ID </p>
+    <p id="localOutput" class="great"></p>
+    <div>
+        <h2>Get your Location:</h2>
+        <button onclick="getLocation()">Try It</button>
+        <div id="location">
+
+        </div>
+    </div>
+
 </body>
-<script src="scripts/main.js"></script>
+<script src=" scripts/main.js">
+</script>
 
 
 

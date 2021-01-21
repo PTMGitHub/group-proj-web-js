@@ -10,13 +10,19 @@ Started: 21 Jan 2021
 * [x]Create a button that when clicked calls a function in your script
 * [x]Create a button to set the cookie
 * [x]Create a button to read and display the cookie
-* [ ]Create a button that saves something to local storage
-* [ ]Create someway of displaying that
-* [ ]Refresh the page, is it still there?
-* [ ]What’s the difference between cookies and local storage?
-* [ ]When would you use them in the real word?
-* [ ]Read and display the location of your device
-* [ ]What kind of apps would this be useful for? Is there any reason you wouldn’t know the device’s location?
+* [x]Create a button that saves something to local storage
+* [x]Create someway of displaying that
+* [x]Refresh the page, is it still there? ***Just Steve it is***
+* [x]What’s the difference between cookies and local storage?
+    * Local Storage persists, is saved on client, bigger storage (possibly up 5MB per domain)
+    * Cookies restricted to 4096bytes, test only and users can easily delete them.
+* [x]When would you use them in the real word?
+    * Localstorge - best option available right now. It's great for storing things like names and emails from contact forms. Allowing you to pre-fill those fields if the user views the form again
+    * Cookies - dont there are better options.
+* [x]Read and display the location of your device
+* [x]What kind of apps would this be useful for? Is there any reason you wouldn’t know the device’s location?
+    * Apps that need your location
+    * user can deny permission
 * [ ]Create a web worker that logs the messages it receives and responds, have the main thread log the response.
 * [ ]What could you use a web worker for? Find a real world example.
 
